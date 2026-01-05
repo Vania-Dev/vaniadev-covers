@@ -9,16 +9,20 @@ The covers in this repository are used to automatically assign visual headers to
 ## Structure
 
 ```
-covers/
-├── Ciencias de la tierra/    # Earth Sciences covers
-└── Tecnologia/              # Technology covers
+├── covers/
+│   ├── Ciencias de la tierra/    # Earth Sciences covers (17 images)
+│   └── Tecnologia/              # Technology covers (15 images)
+├── main.py                      # Automation script
+├── images.csv                   # Image metadata
+├── pyproject.toml              # Project dependencies
+└── README.md                   # This file
 ```
 
 ## Categories
 
 ### Ciencias de la tierra (Earth Sciences)
 - Geology, Petroleum Engineering, and related fields
-- 16 specialized covers for technical topics
+- 17 specialized covers for technical topics
 
 ### Tecnologia (Technology)  
 - AWS services, Python, Machine Learning, and tech topics
